@@ -1,8 +1,8 @@
 def add(a: int, b: int) -> int:
-    return a + b
+    return a - b
 
 def multiply(a: int, b: int) -> int:
-    return a * b
+    pass
 
 if __name__ == "__main__":
     print("Please input the calculation you want: ")
