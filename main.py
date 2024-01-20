@@ -1,1 +1,1 @@
-print("This is the old version ttt.")
+print("This is the old version.")
