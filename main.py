@@ -8,9 +8,9 @@ if __name__ == "__main__":
     print("Please input the calculation you want: ")
     mode = input()
     print("Input the first number: ")
-    a = input()
+    a = int(input())
     print("Input the second number: ")
-    b = input()
+    b = int(input())
     if mode == "add":
         print(f"The sum of {a} and {b} is: {add(a, b)}")
     elif mode == "multiply":
