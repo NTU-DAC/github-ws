@@ -1,8 +1,8 @@
 def add(a: int, b: int) -> int:
-    return a - b
+    return a + b
 
 def multiply(a: int, b: int) -> int:
-    pass
+    return a * b
 
 if __name__ == "__main__":
     print("Please input the calculation you want: ")
@@ -15,3 +15,4 @@ if __name__ == "__main__":
         print(f"The sum of {a} and {b} is: {add(a, b)}")
     elif mode == "multiply":
         print(f"The multiplication of {a} and {b} is: {multiply(a, b)} ")
+    print("Hello")
